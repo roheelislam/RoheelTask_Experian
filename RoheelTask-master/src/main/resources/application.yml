@@ -1,0 +1,21 @@
+
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      auto-commit: false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: admin123
+    username: admin123
+    url: jdbc:mysql://film.cx79hreqgxhy.eu-west-2.rds.amazonaws.com:3306/RoheelTask
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+#  data:
+#    web:
+#      pageable:
+#        max-page-size: 10000
+server:
+  port: 8081
