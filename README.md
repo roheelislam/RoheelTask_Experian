@@ -15,9 +15,5 @@ Experian code exercise
 ## Build
 To build your application in the simply run: `mvn clean install` and it will execute all tests and if they exceed successfully then it will create build.
 
-## Starting Application
-To start your application, simply run: 
-
-    java -jar [name_of_jar]
 
 To check your system has started successfully, Try accessing it from http://localhost:8081
